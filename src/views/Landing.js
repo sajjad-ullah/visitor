@@ -186,7 +186,7 @@ export default function Landing() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/logo.jpeg").default}
+                  src={require("assets/img/logo.png").default}
                   />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
