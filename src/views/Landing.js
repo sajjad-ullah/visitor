@@ -5,6 +5,7 @@ import React from "react";
 
 import Navbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import { white } from "tailwindcss/colors";
 
 export default function Landing() {
   return (
@@ -28,7 +29,7 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white font-semibold text-5xl" >
                     Privacy Policy
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
@@ -412,7 +413,7 @@ This Service does not use these “cookies” explicitly. However, the app may u
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-blueGray-800">
+        <section className="pb-20 relative block bg-blueGray-800" style={{backgroundColor:'#534bff'}}>
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: "translateZ(0)" }}
@@ -439,7 +440,7 @@ This Service does not use these “cookies” explicitly. However, the app may u
                 <h2 className="text-4xl font-semibold text-white">
                 Service Providers
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
+                <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400" style={{color:white}}>
                 We may employ third-party companies and individuals due to the following reasons:
 
 To facilitate our Service;
@@ -458,7 +459,7 @@ We want to inform users of this Service that these third parties have access to 
                 <h6 className="text-xl mt-5 font-semibold text-white">
                 Security
                 </h6>
-                <p className="mt-2 mb-4 text-blueGray-400">
+                <p className="mt-2 mb-4 text-blueGray-400" style={{color:white}}>
                 We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
                 </p>
               </div>
@@ -469,7 +470,7 @@ We want to inform users of this Service that these third parties have access to 
                 <h5 className="text-xl mt-5 font-semibold text-white">
                 Links to Other Sites
                 </h5>
-                <p className="mt-2 mb-4 text-blueGray-400">
+                <p className="mt-2 mb-4 text-blueGray-400" style={{color:white}}>
                 This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
                 </p>
               </div>
@@ -480,14 +481,14 @@ We want to inform users of this Service that these third parties have access to 
                 <h5 className="text-xl mt-5 font-semibold text-white">
                 Children’s Privacy
                 </h5>
-                <p className="mt-2 mb-4 text-blueGray-400">
+                <p className="mt-2 mb-4 text-blueGray-400" style={{color:white}}>
                 These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
+        {/* <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
@@ -555,7 +556,7 @@ We want to inform users of this Service that these third parties have access to 
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </>

@@ -14,7 +14,7 @@ export default function Index() {
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-blueGray-600">
+              <h2 className="font-semibold text-4xl text-blueGray-600" style={{color:'#534bff'}}>
               Doorbell Alert app
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
@@ -42,7 +42,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-
+{console.log(window.location.pathname)};
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
           src={require("assets/img/pattern_react.png").default}
